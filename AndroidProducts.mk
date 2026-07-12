@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_gold.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_gold-user \
-    twrp_gold-userdebug \
-    twrp_gold-eng
+    fox_gold-user \
+    fox_gold-userdebug \
+    fox_gold-eng
