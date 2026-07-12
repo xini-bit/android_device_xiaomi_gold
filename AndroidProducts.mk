@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_gold.mk
+    $(LOCAL_DIR)/fox_gold.mk
 
 COMMON_LUNCH_CHOICES := \
     fox_gold-user \
