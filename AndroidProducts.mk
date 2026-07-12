@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_gold.mk
+    $(LOCAL_DIR)/twrp_gold.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_gold-user \
-    omni_gold-userdebug \
-    omni_gold-eng
+    twrp_gold-user \
+    twrp_gold-userdebug \
+    twrp_gold-eng
