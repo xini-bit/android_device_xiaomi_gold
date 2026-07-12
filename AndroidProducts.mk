@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fox_gold.mk
+    $(LOCAL_DIR)/twrp_gold.mk
 
-COMMON_LUNCH_CHOICES := \
-    fox_gold-user \
-    fox_gold-userdebug \
-    fox_gold-eng
+COMMON_LUNCH_CHOICES := 
+    twrp_gold-eng
