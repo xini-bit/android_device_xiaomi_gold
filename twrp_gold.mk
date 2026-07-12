@@ -16,10 +16,10 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/xiaomi/gold/device.mk)
 
 PRODUCT_DEVICE := gold
-PRODUCT_NAME := fox_gold
+PRODUCT_NAME := twrp_gold
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 2311FRAFDC
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
