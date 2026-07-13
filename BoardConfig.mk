@@ -20,11 +20,7 @@ AB_OTA_PARTITIONS += \
     system_ext \
     vendor \
     vbmeta_system
-# Use vendor_boot as recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
-
-# Enable recovery resources to be moved to vendor_boot
-BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -35,7 +31,7 @@ TARGET_CPU_VARIANT := generic
 TARGET_CPU_VARIANT_RUNTIME := cortex-a55
 
 TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv8-a
+TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
@@ -49,6 +45,7 @@ TARGET_BOOTLOADER_BOARD_NAME := gold
 TARGET_NO_BOOTLOADER := true
 
 # Display
+TW_MAX_BRIGHTNESS := 255 # b7 m2 fx
 TARGET_SCREEN_DENSITY := 480
 
 # Kernel
@@ -116,6 +113,3 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
-
-# Recovery as Boot
-BOARD_USES_RECOVERY_AS_BOOT := true
