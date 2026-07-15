@@ -16,7 +16,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/gold/device.mk)
 
 PRODUCT_DEVICE := gold
-PRODUCT_NAME := twrp_gold
+PRODUCT_NAME := fox_gold
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 2311FRAFDC
 PRODUCT_MANUFACTURER := Xiaomi
